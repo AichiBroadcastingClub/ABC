@@ -1,13 +1,13 @@
+  header {
+    height: 100px;
+  }
+
   main {
-    height: 500px;
+    height: 5000px;
   }
   
   footer {
-    height: 80px;
-  }
-
-  header {
-    height: 70px;
+    height: 100px;
   }
 
   span.title {
