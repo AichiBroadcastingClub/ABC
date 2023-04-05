@@ -5,9 +5,6 @@
   main {
     height: 900px;
   }
-
-  span.url {
-    font-size: 19pt;
   
   footer {
     height: 100px;
@@ -20,6 +17,9 @@
   span.main {
     font-size: 20pt;
   }
+
+  span.url {
+    font-size: 19pt;
 
   span.info {
     font-size: 15pt;
