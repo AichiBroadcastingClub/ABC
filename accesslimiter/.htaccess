@@ -1,0 +1,4 @@
+AuthType     Basic
+AuthName     ABC-Authentication
+AuthUserFile 
+require valid-user
