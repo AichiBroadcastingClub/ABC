@@ -1,0 +1,25 @@
+  main {
+    height: 200px;
+    background-color: whitesmoke;
+  }
+  
+  footer {
+    height: 250px;
+    background-color: lightgray;
+  }
+
+  header {
+    height: 80px;
+  }
+
+  span.title {
+    font-size: 50pt;
+  }
+
+  span.main {
+    font-size: 20pt;
+  }
+
+  span.info {
+    font-size: 15pt;
+  }
