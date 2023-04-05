@@ -1,5 +1,10 @@
-  main {
-    height: 500px;
+  main1 {
+    height: 200px;
+    background-color: whitesmoke;
+  }
+
+  main2 {
+    height: 200px;
     background-color: whitesmoke;
   }
   
