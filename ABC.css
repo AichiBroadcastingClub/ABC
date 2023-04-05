@@ -5,6 +5,9 @@
   main {
     height: 900px;
   }
+
+  span.url {
+    font-size: 15pt;
   
   footer {
     height: 100px;
