@@ -1,13 +1,19 @@
   header {
     height: 170px;
+    width: auto;
+    background-color: lightyellow
   }
 
   main {
     height: 850px;
+    width: auto;
+    background-color: lightblue
   }
   
   footer {
     height: 100px;
+    width: auto;
+    background-color: lightgray
   }
 
   span.title {
@@ -20,6 +26,7 @@
 
   span.url {
     font-size: 19pt;
+  }
 
   span.info {
     font-size: 15pt;
