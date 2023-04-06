@@ -35,3 +35,10 @@
   span.info {
     font-size: 15pt;
   }
+
+  　.katudounaiyou{
+    max-width: auto;
+    max-height: auto;
+    margin: 15px auto 0px;
+    background-color: lightpink;
+  }
