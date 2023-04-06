@@ -1,17 +1,17 @@
   header {
-    height: 170px;
+    height: 190px;
     width: auto;
     background-color: lightyellow
   }
 
   main {
-    height: 850px;
+    height: 860px;
     width: auto;
     background-color: lightblue
   }
   
   footer {
-    height: 100px;
+    height: 120px;
     width: auto;
     background-color: lightgray
   }
