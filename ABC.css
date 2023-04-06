@@ -41,7 +41,7 @@
     max-height: auto;
     margin: 15px auto 0px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
     background-color: lightpink;
   }
