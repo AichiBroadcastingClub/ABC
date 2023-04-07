@@ -44,3 +44,20 @@
     margin 0 auto;
     background-color: lightpink;
   }
+
+    .children1{
+    max-width: auto;
+    max-height: auto;
+    margin: 15px auto 0px;
+    display: flex;
+    margin 0 auto;
+    background-color: lightpink;
+  }
+    . children2{
+    max-width: auto;
+    max-height: auto;
+    margin: 15px auto 0px;
+    display: flex;
+    margin 0 auto;
+    background-color: lightpink;
+  }
