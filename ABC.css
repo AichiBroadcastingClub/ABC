@@ -33,11 +33,10 @@
   }
 
   .activitycontent {
-    max-width: 600;
+    max-width: auto;
     max-height: 600;
     background-color: lightcyan;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
   }
 
   .children1 {
@@ -59,6 +58,7 @@
     max-height: 100;
     background-color: lightskyblue;
     text-align: center;
+    margin: 15;
   }
 
   .coverage {
@@ -66,6 +66,7 @@
     max-height: 100;
     background-color: lightskyblue;
     text-align: center;
+    margin: 15;
   }
 
   .edit {
@@ -73,6 +74,7 @@
     max-height: 100;
     background-color: lightskyblue;
     text-align: center;
+    margin: 15;
   }
 
   .acoustic {
@@ -80,4 +82,5 @@
     max-height: 100;
     background-color: lightskyblue;
     text-align: center;
+    margin: 15;
   }
