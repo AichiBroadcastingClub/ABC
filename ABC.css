@@ -16,10 +16,6 @@
     background-color: lightgray
   }
 
-
-
-
-
   span.title {
     font-size: 50pt;
   }
@@ -36,28 +32,15 @@
     font-size: 15pt;
   }
 
-  　.katudounaiyou{
-    max-width: auto;
-    max-height: auto;
-    margin: 15px auto 0px;
-    display: flex;
-    margin 0 auto;
-    background-color: lightpink;
-  }
-
     .children1{
     max-width: auto;
     max-height: auto;
-    margin: 15px auto 0px;
+    margin: 15px auto;
     display: flex;
-    margin 0 auto;
-    background-color: lightpink;
   }
     . children2{
     max-width: auto;
     max-height: auto;
-    margin: 15px auto 0px;
+    margin: 15px auto;
     display: flex;
-    margin 0 auto;
-    background-color: lightpink;
   }
