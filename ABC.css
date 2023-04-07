@@ -41,7 +41,6 @@
     max-height: auto;
     margin: 15px auto 0px;
     display: flex;
-    margin-right: auto;
-    margin-left: auto;
+    margin 0 auto;
     background-color: lightpink;
   }
