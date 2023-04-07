@@ -32,55 +32,50 @@
     font-size: 15pt;
   }
 
+  ul{
+  padding-left:0;
+  }
+
+  li{
+  list-style:none;
+  }
+
+  .convention {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 56px;
+  }
+
   .activitycontent {
-    max-width: auto;
-    max-height: 600;
-    background-color: lightcyan;
+    text-align: center;
+    width: 1200px;
     margin: 0 auto;
   }
 
-  .children1 {
-    max-width: 600;
-    max-height: 300;
-    background-color: bisque;
-    float: left;
+  .activitytitle {
+    font-size: 40px;
+    width: 400px;
+    background-color: khaki;
+    margin: 0 auto;
   }
 
-  .children2 {
-    max-width: 600;
-    max-height: 300;
-    background-color: bisque;
-    float: left;
-  }
-
-  .broadcasting_lunch {
-    max-width: 100;
-    max-height: 100;
-    background-color: lightskyblue;
+  .achievement {
     text-align: center;
-    margin: 15;
+    width: 1200px;
+    margin: 0 auto;
   }
 
-  .coverage {
-    max-width: 100;
-    max-height: 100;
-    background-color: lightskyblue;
+  .activeday {
     text-align: center;
-    margin: 15;
+    width: 1200px;
+    margin: 0 auto;
   }
 
-  .edit {
-    max-width: 100;
-    max-height: 100;
-    background-color: lightskyblue;
+  .activitycontent ul li {
     text-align: center;
-    margin: 15;
-  }
-
-  .acoustic {
-    max-width: 100;
-    max-height: 100;
-    background-color: lightskyblue;
-    text-align: center;
-    margin: 15;
+    background-color: khaki;
+    width: 300px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(212, 212, 212);
   }
