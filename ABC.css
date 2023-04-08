@@ -56,7 +56,6 @@
   .activitytitle {
     font-size: 40px;
     width: 400px;
-    background-color: khaki;
     margin: 0 auto;
   }
 
@@ -64,18 +63,36 @@
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    transition: all 0.2s;
+  }
+
+  .achievement:hover {
+    background-color: rgb(154, 199, 248);
   }
 
   .activeday {
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    transition: all 0.2s;
+  }
+
+  .activeday:hover {
+    background-color: rgb(154, 199, 248);
   }
 
   .activitycontent ul li {
     text-align: center;
-    background-color: khaki;
     width: 300px;
     margin: 0 auto;
     border-bottom: 1px solid rgb(212, 212, 212);
+    transition: all 0.2s;
+  }
+
+  .active {
+    font-size: 24px;
+  }
+
+  .active:hover {
+    background-color: rgb(154, 199, 248);
   }
