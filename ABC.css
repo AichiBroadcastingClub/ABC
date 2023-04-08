@@ -63,10 +63,10 @@
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    transition: all 0.2s;
   }
 
   .achievement:hover {
+    transition: all 0.2s;
     background-color: rgb(154, 199, 248);
   }
 
@@ -74,10 +74,10 @@
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    transition: all 0.2s;
   }
 
   .activeday:hover {
+    transition: all 0.2s;
     background-color: rgb(154, 199, 248);
   }
 
@@ -85,8 +85,11 @@
     text-align: center;
     width: 300px;
     margin: 0 auto;
-    border-bottom: 1px solid rgb(212, 212, 212);
-    transition: all 0.2s;
+    border-bottom: 2px solid rgb(212, 212, 212);
+  }
+
+  .activitycontent ul li:first-child{
+    border-top: 2px solid rgb(212, 212, 212);
   }
 
   .active {
@@ -94,5 +97,6 @@
   }
 
   .active:hover {
+    transition: all 0.2s;
     background-color: rgb(154, 199, 248);
   }
