@@ -51,6 +51,7 @@
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    background-color: rgb(54, 132, 216);
   }
 
   .activitytitle {
@@ -59,10 +60,22 @@
     margin: 0 auto;
   }
 
+  .accordion-area{
+    list-style: none;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .accordion-area li{
+    margin: 10px 0;
+  }
+
   .achievement {
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    transition: 0.5s;
   }
 
   .achievement:hover {
@@ -74,6 +87,8 @@
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    cursor: pointer;
+    transition: 0.5s;
   }
 
   .activeday:hover {
@@ -92,11 +107,50 @@
     border-top: 2px solid rgb(212, 212, 212);
   }
 
-  .active {
+  .title {
+    font-weight: 600;
     font-size: 24px;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.5s;
   }
 
-  .active:hover {
-    transition: all 0.2s;
+  .title:hover {
     background-color: rgb(154, 199, 248);
+  }
+
+  .title::before,
+  .title::after{
+    position: absolute;
+    content:'';
+    width: 15px;
+    height: 2px;
+    background-color: #333;
+  }
+
+  .title::before{
+    top: 48%;
+    left: 15px;
+    transform: rotate(0deg);
+  }
+
+  .title::after{
+    top: 48%;
+    left: 15px;
+    transform: rotate(90deg);
+  }
+
+  .title.close::before{
+    transform: rotate(45deg);
+  }
+
+  .title.close::after{
+    transform: rotate(-45deg);
+  }
+
+  .box{
+    display: none;
+    margin: 0 3% 3% 3%;
+    padding: 3%;
+    font-size: small;
   }
