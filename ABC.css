@@ -94,6 +94,17 @@
   .activeday:hover {
     background-color: white;
   }
+  
+    .access {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    transition: 0.5s;
+  }
+
+  .access:hover {
+    background-color: white;
+  }
 
   .activitycontent ul li {
     text-align: center;
