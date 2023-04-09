@@ -17,3 +17,15 @@ $(window).on('load', function(){
         $(Box).slideDown(500);
     });
 });
+
+function delay(n){
+    return new Promise(function(resolve){
+        setTimeout(resolve, n*1000);
+    });
+}
+
+window.onload = async function() {
+    const loading_img = document.getElementById("loading");
+    await delay(0.85);
+    loading_img.classList.add('loaded');
+}
