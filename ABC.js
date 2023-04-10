@@ -20,12 +20,12 @@ $(window).on('load', function(){
 
 function delay(n){
     return new Promise(function(resolve){
-        setTimeout(resolve,n*3000);
+        setTimeout(resolve,n*1000);
     });
 }
 
 window.onload = async function() {
     const loading_img = document.getElementById("loading");
-    await delay(1.0);
+    await delay(0.85);
     loading_img.classList.add('loaded');
 }
