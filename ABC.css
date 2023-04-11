@@ -1,5 +1,5 @@
   header {
-    height: 190px;
+    height: 360px;
     width: auto;
     background-color: lightyellow
   }
@@ -11,7 +11,7 @@
     width: auto;
     display: flex;
     flex-flow: column;
-    background-image: url(room.jpg);
+    background-image: url(https://github.com/AichiBroadcastingClub/ABC/blob/5.1.2/img/room.jpg?raw=true);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:right 50% auto;
