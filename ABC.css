@@ -102,7 +102,6 @@
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    background-color: rgb(54, 132, 216);
   }
 
   .activitytitle {
@@ -139,7 +138,6 @@
     margin: 0 auto;
     cursor: pointer;
     transition: 0.5s;
-    background-color: white;
   }
 
     .access {
@@ -147,7 +145,6 @@
     width: 400px;
     margin: 0 auto;
     transition: 0.5s;
-    background-color: white;
   }
 
   .activitycontent ul li {
