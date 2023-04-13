@@ -3,11 +3,6 @@
     float: none;
     position: static;
   }
-  
-  img {
-	max-width: 100%;
-	height: auto;
-}
 
   header {
     height: 360px;
