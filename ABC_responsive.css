@@ -1,0 +1,212 @@
+  header {
+    height: 360px;
+    width: auto;
+    background-color: lightyellow
+  }
+
+  main {
+    position: relative;
+    z-index: 1;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-flow: column;
+    background-image: url(https://github.com/AichiBroadcastingClub/ABC/blob/5.1.2/img/room.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right 50% auto;
+  }
+  
+  main::after{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    opacity: 0.8;
+  }
+
+  main>#loading,.convention,.activitytitle,.accordion-area,.title,.box{
+    position: relative;
+    z-index: 3;;
+  }
+
+  footer {
+    height: auto;
+    width: auto;
+    background-color: rgb(248, 251, 255);
+  }
+
+  span.title {
+    font-size: 50pt;
+  }
+
+  span.main {
+    font-size: 20pt;
+  }
+
+  span.url {
+    font-size: small;
+  }
+
+  span.info {
+    font-size: 15pt;
+  }
+
+  ul{
+  padding-left:0;
+  }
+
+  li{
+  list-style:none;
+  }
+
+  #loading {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background: #fff;
+
+  }
+
+  .loading_img {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+  .loaded {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .convention {
+    font-family: serif;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 56px;
+  }
+
+  .activitycontent {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .activitytitle {
+    font-size: 40px;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .accordion-area{
+    list-style: none;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .accordion-area li{
+    margin: 10px 0;
+  }
+
+  .achievement {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    transition: 0.5s;
+  }
+
+  .achievement:hover {
+    background-color: white;
+  }
+
+  .activeday {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+    .access {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    transition: 0.5s;
+  }
+
+  .activitycontent ul li {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    border-bottom: 2px solid rgb(47, 47, 47);
+  }
+
+  .activitycontent ul li a {
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+  }
+
+  .activitycontent ul li:first-child {
+    border-top: 2px solid rgb(47, 47, 47);
+  }
+
+  .title{
+    font-weight: 600;
+    font-size: 24px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .title:hover {
+    background-color: rgb(154, 199, 248);
+  }
+
+  .title::before,
+  .title::after{
+    position: absolute;
+    content:'';
+    width: 15px;
+    height: 2px;
+    background-color: #333;
+  }
+
+  .title::before{
+    top: 48%;
+    left: 15px;
+    transform: rotate(0deg);
+  }
+
+  .title::after{
+    top: 48%;
+    left: 15px;
+    transform: rotate(90deg);
+  }
+
+  .title.close::before{
+    transform: rotate(45deg);
+  }
+
+  .title.close::after{
+    transform: rotate(-45deg);
+  }
+
+  .box{
+    display: none;
+    margin: 0 3% 3% 3%;
+    padding: 3%;
+    font-size: small;
+  }
