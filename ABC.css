@@ -1,4 +1,10 @@
   @media screen and (min-width:481px){
+    
+    img {
+	max-width: 100%;
+	height: auto;
+}
+
   header {
     height: auto;
     width: auto;
