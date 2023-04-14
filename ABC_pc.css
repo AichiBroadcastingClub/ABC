@@ -135,6 +135,18 @@
     transition: 0.5s;
   }
 
+  .achievement ul li section h3 div table {
+    border-color: rgb(111, 111, 111);
+  }
+
+  .map {
+    margin: 0 auto;
+  }
+
+  .suppliment {
+    font-size: 11px;
+  }
+
   .achievement:hover {
     background-color: white;
   }
@@ -215,6 +227,6 @@
     display: none;
     margin: 0 3% 3% 3%;
     padding: 3%;
-    font-size: small;
+    font-size: 16;
   }
 }
