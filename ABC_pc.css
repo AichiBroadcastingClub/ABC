@@ -137,7 +137,7 @@
 
   .achievement ul li section div table {
     border-color: rgb(111, 111, 111);
-    font-size: 8px;
+    font-size: 4px;
   }
 
   .map {
@@ -145,7 +145,7 @@
   }
 
   .suppliment {
-    font-size: 6px;
+    font-size: 3px;
   }
 
   .achievement:hover {
