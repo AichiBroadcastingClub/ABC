@@ -113,7 +113,7 @@
 
   .activitytitle {
     font-size: 40px;
-    width: 400px;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -130,7 +130,7 @@
 
   .achievement {
     text-align: center;
-    width: 400px;
+    width: 90%;
     margin: 0 auto;
     transition: 0.5s;
   }
@@ -145,7 +145,7 @@
   }
 
   .suppliment {
-    font-size: 3px;
+    font-size: small;
   }
 
   .achievement:hover {
@@ -154,26 +154,26 @@
 
   .activeday {
     text-align: center;
-    width: 400px;
+    width: 90%;
     margin: 0 auto;
     cursor: pointer;
     transition: 0.5s;
   }
 
-    .access {
+  .access {
     text-align: center;
-    width: 400px;
+    width: 90%;
     margin: 0 auto;
     transition: 0.5s;
   }
 
-    .access-txt {
+  .access-txt {
       font-size: 16px;
     }
 
   .activitycontent ul li {
     text-align: center;
-    width: 300px;
+    width: 80%;
     margin: 0 auto;
     border-bottom: 2px solid rgb(47, 47, 47);
   }
