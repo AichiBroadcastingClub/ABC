@@ -120,7 +120,6 @@
   .accordion-area{
     list-style: none;
     width: 100%;
-    max-width: 900px;
     margin: 0 auto;
   }
 
@@ -155,7 +154,7 @@
 
   .activeday {
     text-align: center;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     cursor: pointer;
     transition: 0.5s;
