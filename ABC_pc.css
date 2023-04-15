@@ -167,6 +167,10 @@
     transition: 0.5s;
   }
 
+    .access-txt {
+      font-size: 16px;
+    }
+
   .activitycontent ul li {
     text-align: center;
     width: 300px;
