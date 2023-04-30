@@ -60,7 +60,7 @@
   }
 
   span.url {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   span.info {
@@ -123,13 +123,17 @@
 
   .accordion-area{
     list-style: none;
-    width: 100%;
+    width: 95%;
     max-width: auto;
     margin: 0 auto;
   }
 
   .accordion-area li{
     margin: 10px 0;
+  }
+  
+  .accordion-area li section:hover{
+    background-color: white;
   }
 
   .achievement {
@@ -163,12 +167,20 @@
     cursor: pointer;
     transition: 0.5s;
   }
+  
+  .activeday:hover {
+    background-color: white;
+  }
 
-    .access {
+  .access {
     text-align: center;
     width: auto;
     margin: 0 auto;
     transition: 0.5s;
+  }
+
+  .access:hover {
+    background-color: white;
   }
 
   .access-txt {
@@ -237,5 +249,9 @@
     margin: 0 3% 3% 3%;
     padding: 3%;
     font-size: 18px;
+  }
+
+  .katsudoubi{
+    font-size: 23px;
   }
 }

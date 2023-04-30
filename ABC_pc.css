@@ -56,7 +56,7 @@
   }
 
   span.url {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   span.info {
@@ -127,6 +127,10 @@
     margin: 10px 0;
   }
 
+  .accordion-area li section:hover{
+    background-color: white;
+  }
+
   .achievement {
     text-align: center;
     width: 90%;
@@ -160,11 +164,19 @@
     transition: 0.5s;
   }
 
+  .activeday:hover {
+    background-color: white;
+  }
+
   .access {
     text-align: center;
     width: 90%;
     margin: 0 auto;
     transition: 0.5s;
+  }
+
+  .access:hover {
+    background-color: white;
   }
 
   .access-txt {
@@ -232,6 +244,10 @@
     display: none;
     margin: 0 3% 3% 3%;
     padding: 3%;
-    font-size: 16;
+    font-size: 20px;
+  }
+
+  .katsudoubi{
+    font-size: 23px;
   }
 }
