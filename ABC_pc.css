@@ -8,7 +8,7 @@
   header {
     height: auto;
     width: auto;
-    background-color: lightyellow
+    background-color: white;
   }
 
   main {
@@ -44,7 +44,7 @@
   footer {
     height: auto;
     width: auto;
-    background-color: rgb(248, 251, 255);
+    background-color: white;
   }
 
   span.title {
